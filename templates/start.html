@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Send files form</title>
+</head>
+<body>
+  <h1>Upload file</h1>
+  <form action="/upload" enctype="multipart/form-data" method="post">
+    <label>Filename</label>
+    <input type="text" name="filename">
+    <br>
+    <label>File to upload</label>
+    <input type="file" name="upload" multiple="multiple">
+    <br>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  background: #ccc;
+  padding: 20px;
+}
+.image {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
